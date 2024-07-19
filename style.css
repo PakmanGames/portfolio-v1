@@ -1,10 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
 * {
     gap: 0px;
     padding: 0px;
     margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 html, body {
     height: 100%;
     width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.navbar, .name, ul, .content {
+    display: flex;
+}
+
+.navbar {
+    background-color: #121240;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.name {
+    gap: 5px;
+}
+
+ul {
+    gap: 30px;
+}
+
+a {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Lilita, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    height: 30px;
+    width: 30px;
 }
