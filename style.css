@@ -29,19 +29,61 @@ html, body {
     padding: 10px;
 }
 
+.content {
+    flex-wrap: wrap;
+}
+
 .name {
-    gap: 5px;
+    gap: 10px;
 }
 
 ul {
     gap: 30px;
 }
 
+.left-info {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    gap: 30px;
+    text-align: center;
+    min-width: 390px;
+}
+
+.title {
+    font-size: 70px;
+    font-family: "Lilita One", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(darkblue, rgb(138, 105, 189));
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2dfe9;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 5px solid #272727;
+}
+
+.left-info img{
+    height: 50px;
+    width: 50px;
+}
+
 a {
     color: white;
     font-size: 30px;
-    font-weight: bold;
-    font-family: Lilita, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lilita One", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a:hover {
