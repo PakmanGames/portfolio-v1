@@ -24,13 +24,22 @@
         <div class="email-box">
             <div class="title">Email Me</div>
             <div class="email-subject">
-                <input type="email" placeholder="Email">
-                <input type="text" placeholder="Subject">
+                <input type="email" placeholder="Email" class="email">
+                <input type="text" placeholder="Subject" class="subject">
             </div>
             <textarea type="text" placeholder="Message" class="message-box"></textarea>
             <button class="send-mail">Send</button>
         </div>
 
-        <script src="./script.js"></script>
+        <script src="../key.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function(){
+                emailjs.init({
+                    publicKey: keys.key,
+                });
+            })();
+        </script>
+        <script src="../script.js"></script>
     </body>
 </html>
