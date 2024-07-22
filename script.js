@@ -15,5 +15,12 @@ sendMailButton.addEventListener("click", () => {
         document.querySelector(".subject").value !== "" &&
         document.querySelector(".message-box").value !== "") {
         sendMail();
+    } else {
+        const warning = document.querySelector(".warning");
+        warning.style.color = "red";
+        warning.textContent = "Mail not sent, one or more fields are blank";
     }
 });
+
+sendMailButton.addEventListener("mousedown", () => sendMailButton.classList.add("pressed"));
+sendMailButton.addEventListener("mouseup", () => sendMailButton.classList.remove("pressed"));

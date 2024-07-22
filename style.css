@@ -154,3 +154,8 @@ input, textarea {
     color: white;
     background-color: #111240;
 }
+
+.pressed {
+    transform: scale(0.9);
+    background-color: #1f2066;
+}
