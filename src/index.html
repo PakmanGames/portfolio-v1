@@ -1,40 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full w-full">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale = 1.0">
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="../dist/output.css">
         <title>Andy Pak</title>
     </head>
-    <body class="container">
-        <nav class="navbar">
-            <div class="name">
+    <body class="flex-col h-full w-full">
+        <nav class="flex bg-blue-950 justify-between justify-self-start p-3">
+            <div class="flex items-center gap-2">
                 <img src="https://avatars.githubusercontent.com/u/147354924?v=4" alt="PakmanGames">
-                <div class="subtitle">
+                <div>
                     <a href="https://github.com/PakmanGames" target="_blank">PakmanGames</a>
                 </div>
             </div>
-            <ul>
+            <ul class="flex gap-4">
                 <li><a href="#">Home</a></li>
                 <li><a href="./pages/projects.html">Projects</a></li>
                 <li><a href="./pages/contact.html">Contact</a></li>
             </ul>
         </nav>
-        <div class="content">
-            <div class="container left-info">
-                <div class="title">Andy Pak</div>
+        <div class="flex flex-wrap">
+            <div class="flex flex-col flex-1 left-info">
+                <div class="title text-7xl">Andy Pak</div>
                 <div>McMaster Software Engineer</div>
-                <div class="buttons">
-                    <a href="https://github.com/PakmanGames" target="_blank" class="btn github"><img src="./images/github.svg" alt="github"></a>
-                    <a href="https://www.linkedin.com/in/andy-pak/" target="_blank" class="btn linkedin"><img src="./images/linkedin.svg" alt="linkedin"></a>
-                    <a href="https://www.instagram.com/pakmangames/" target="_blank" class="btn instagram"><img src="./images/instagram.svg" alt="instagram"></a>
-                    <a href="mailto:im.andy.pak@gmail.com" target="_blank" class="btn email"><img src="./images/envelope.svg" alt="mailto"></a>
+                <div class="flex justify-evenly">
+                    <a href="https://github.com/PakmanGames" target="_blank" class="flex justify-center items-center h-20 w-20 rounded-full bg-slate-200 border-4 border-slate-950 github"><img src="./images/github.svg" alt="github"></a>
+                    <a href="https://www.linkedin.com/in/andy-pak/" target="_blank" class="flex justify-center items-center h-20 w-20 rounded-full bg-slate-200 border-4 border-slate-950 linkedin"><img src="./images/linkedin.svg" alt="linkedin"></a>
+                    <a href="https://www.instagram.com/pakmangames/" target="_blank" class="flex justify-center items-center h-20 w-20 rounded-full bg-slate-200 border-4 border-slate-950 instagram"><img src="./images/instagram.svg" alt="instagram"></a>
+                    <a href="mailto:im.andy.pak@gmail.com" target="_blank" class="flex justify-center items-center h-20 w-20 rounded-full bg-slate-200 border-4 border-slate-950 email"><img src="./images/envelope.svg" alt="mailto"></a>
                 </div>
             </div>
-            <div class="container">
+            <div class="flex flex-col flex-1">
                 <div>
-                    <div class="subtitle">Languages</div>
-                    <ul>
+                    <div>Languages</div>
+                    <ul class="flex gap-4">
                         <li>Java</li>
                         <li>Python</li>
                         <li>JavaScript</li>
@@ -43,8 +43,8 @@
                     </ul>
                 </div>
                 <div>
-                    <div class="subtitle">Tools</div>
-                    <ul>
+                    <div>Tools</div>
+                    <ul class="flex gap-4">
                         <li>Git</li>
                         <li>GitHub</li>
                         <li>VSCode</li>

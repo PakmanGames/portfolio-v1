@@ -11,40 +11,6 @@
     list-style-type: none;
 }
 
-html, body {
-    height: 100%;
-    width: 100%;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-
-.navbar, .name, ul, .content {
-    display: flex;
-}
-
-.navbar {
-    background-color: #121240;
-    justify-self: flex-start;
-    justify-content: space-between;
-    padding: 10px;
-}
-
-.content {
-    flex-wrap: wrap;
-}
-
-.name {
-    gap: 10px;
-}
-
-ul {
-    gap: 30px;
-}
-
 .left-info {
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -61,11 +27,6 @@ ul {
     -webkit-background-clip: text;
             background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-.buttons {
-    display: flex;
-    justify-content: space-evenly;
 }
 
 .btn {
